@@ -216,3 +216,38 @@ TRON 的多签系统（TIP‑16）定义了账户如何通过多个私钥进行�
 在本次审计中，Bg 钱包已从所有权限结构中移除，Lev 被设定为 Yk 钱包下的唯一签署人，完全符合 TIP‑16 的要求。
 
 🔗 Reference / 参考: https://github.com/tronprotocol/TIPs/blob/main/tp/tip-16.md
+
+# Bg Wallet Transaction History — Audit Evidence
+
+## Overview
+- Address: TCJgrowM26ojHX8jDBSoq8J6qvRs95heBg
+- Net Assets: $216.85 (TRX only)
+- TRX Available: 15.000008
+- TRX Staked: 746
+- No USDT or active tokens
+- No contracts published
+- No voting rewards
+- Last activity: 2025-10-16
+- Status: Blacklisted and removed from all permission trees
+
+## Key Transactions
+- Block 69927175 — 421.171041 TRX inbound [Note: Bg was blacklist]
+- Block 68651916 — 727.547514 TRX inbound
+- Block 69927210 — 764.149279 TRX inbound
+- Block 68651939 — 500 TRX inbound
+- Block 67946064 — 112.624513 TRX inbound
+- Multiple micro-transactions (0.000001–0.000007 TRX) for traceability
+
+## Forensic Interpretation
+- Bg wallet received large TRX transfers from tagged sources.
+- Numerous micro-transactions confirm ping/test activity.
+- Blacklist note visible on-chain (Block 69927175).
+- No outbound activity after blacklist enforcement.
+- Wallet is financially inactive and isolated from Yk/Lev structures.
+- Verified via Tronscan and TronLink.
+
+## Compliance Notes
+- Bg fully removed from active permission tree.
+- No residual control or weight assigned to Bg.
+- Lev confirmed as sole signer under Yk wallet.
+- Blockchain reflects clean signer structure.
