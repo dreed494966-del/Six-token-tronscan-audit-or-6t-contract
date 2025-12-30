@@ -188,3 +188,31 @@ Audit log update — Bg wallet finalized post signer removal
 - Residual control: None
 - Verified via Tronscan and TronLink
 
+- 
+## 🔐 TRON Multisig Standard (TIP‑16) — Summary | 多签标准摘要
+
+### English
+TRON’s multisig system (TIP‑16) defines how an account can be controlled by multiple private keys using weighted signatures.  
+Each account can define:
+- **Owner Permission** — full control of the account  
+- **Active Permission** — customizable permissions for daily operations  
+- **Witness Permission** — used by SR nodes  
+
+A transaction is valid only when the **combined signature weight** meets or exceeds the configured **threshold**.  
+This standard allows secure multi‑party control, signer rotation, and recovery in case a private key is lost.
+
+In this audit, the Bg wallet was removed from all permission structures, and Lev was assigned as the sole signer under the Yk wallet, fully aligned with TIP‑16 requirements.
+
+### 中文
+TRON 的多签系统（TIP‑16）定义了账户如何通过多个私钥进行加权签名控制。  
+每个账户可设置：
+- **Owner 权限** — 账户的最高权限  
+- **Active 权限** — 可自定义的日常操作权限  
+- **Witness 权限** — 由超级代表节点使用  
+
+当签名的总权重达到或超过设定的 **阈值** 时，交易才有效。  
+该标准支持多方控制、签署人替换，以及私钥丢失时的恢复机制。
+
+在本次审计中，Bg 钱包已从所有权限结构中移除，Lev 被设定为 Yk 钱包下的唯一签署人，完全符合 TIP‑16 的要求。
+
+🔗 Reference / 参考: https://github.com/tronprotocol/TIPs/blob/main/tp/tip-16.md
