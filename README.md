@@ -282,3 +282,43 @@ Lev 已确认为 Yk 钱包下唯一签署人
 
 ## Tags | 标签
 #removeBlackList(Bg) #LevSigner #PermissionUpdate #AuditFinalized
+
+## Compliance Metadata
+
+### Bg Wallet Clarification | Bg 钱包说明
+- Bg wallet (TCJgrowM26ojHX8jDBSoq8J6qvRs95heBg) is a standard TRON account, not a contract.
+- Bg was referenced in 6T contract actions (e.g., removeBlackList(Bg)) as a parameter.
+- These actions confirm Bg was approved/removed in contract state, ensuring compliance.
+- Bg has no residual control or weight in permission trees.
+- Blockchain reflects clean signer structure under Yk wallet.
+
+### 6T Contract Clarification | 6T 合约说明
+
+- Six Token (6T) is a TRC‑20 smart contract deployed on TRON Mainnet.
+- Contract actions (e.g., removeBlackList(Bg), setParams(0,0), approve(Yk,0)) were executed through 6T.
+- Bg wallet was referenced in contract state changes but is not itself a contract.
+- Current signer structure:
+  - Myradren‑owner: Lev signer, weight 4, threshold 3
+  - Myradren‑active: Lev confirmed as sole signer
+- All Bg references have been removed; contract permissions are clean and TIP‑16 compliant.
+- Blockchain reflects finalized compliance metadata for international audit review.
+
+- ## Compliance Metadata | 合规元数据
+
+### Bg Wallet Clarification | Bg 钱包说明
+- Bg wallet (TCJgrowM26ojHX8jDBSoq8J6qvRs95heBg) is a standard TRON account, not a contract.
+- Bg was referenced in 6T contract actions (e.g., removeBlackList(Bg)) as a parameter.
+- These actions confirm Bg was approved/removed in contract state, ensuring compliance.
+- Bg has no residual control or weight in permission trees.
+- Blockchain reflects clean signer structure under Yk wallet.
+
+### 6T Contract Clarification | 6T 合约说明
+- Six Token (6T) is a TRC‑20 smart contract deployed on TRON Mainnet.
+- Contract actions (removeBlackList(Bg), setParams(0,0), approve(Yk,0)) were executed through 6T.
+- Bg wallet was referenced in contract state changes but is not itself a contract.
+- Current signer structure:
+  - Myradren‑owner: Lev signer, weight 4, threshold 3
+  - Myradren‑active: Lev confirmed as sole signer
+- All Bg references have been removed; contract permissions are clean and TIP‑16 compliant.
+- Blockchain reflects finalized compliance metadata for international audit review.
+
