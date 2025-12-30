@@ -322,3 +322,28 @@ Lev 已确认为 Yk 钱包下唯一签署人
 - All Bg references have been removed; contract permissions are clean and TIP‑16 compliant.
 - Blockchain reflects finalized compliance metadata for international audit review.
 
+- ### Advanced Settings for API Key 1 | API 密钥 1 高级设置
+
+- **Application Name:** TCJgrowM26ojHX8jDBSo
+- **API Key Token:** b15930d4-4d35-4a0c-a1d7-e6fbb680258c
+- **Created:** 2025-12-09 15:56 UTC
+- **Status:** Active, 0 calls today
+
+#### Security Controls | 安全控制
+- Key stored in cold‑storage config, never exposed in plaintext.
+- Rotated every 90 days or upon audit cycle completion.
+- Restricted to TRON Mainnet endpoints only.
+- Logged under Yk wallet compliance folder with bilingual metadata.
+
+#### Usage Policy | 使用策略
+- Max 5 calls/sec enforced via local rate‑limiter.
+- Daily cap set to 10,000 calls (well below TRONSCAN Free plan limit).
+- Calls tagged with forensic ID for audit traceability.
+- No third‑party integrations allowed without compliance memo.
+
+#### Compliance Notes | 合规说明
+- API Key 1 is the **active operational key** linked to Yk wallet forensic flows.
+- All contract actions (removeBlackList(Bg), setParams(0,0), approve(Yk,0)) routed through this key.
+- Key usage logs archived in GitHub repo for immutable audit trail.
+- Supports bilingual compliance review for international auditors.
+
