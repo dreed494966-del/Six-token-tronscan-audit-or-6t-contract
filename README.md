@@ -171,4 +171,20 @@ Compliance Notes:
 Tags:
 #removeBlackList(Bg) #setParams(0,0) #LevSigner #PermissionUpdate #TronMainnet #AuditReady #sixTokenAudit #YkWallet #TronLinkEdge
 
+<img width="1326" height="1011" alt="{AD447D09-0E43-493A-82E8-F253200A8018}" src="https://github.com/user-attachments/assets/741c8d40-1c1d-408f-8fbb-18f9296f3c8a" 
+  />
+
+Audit log update — Bg wallet finalized post signer removal
+
+- Address: TCJgrowM26ojHX8jD8SoqJ6qyRs9SheBG
+- Net Assets: $216.87
+- TRX Available: 15.000008
+- TRX Staked: 746
+- No USDT or active tokens
+- No contracts published
+- No voting rewards
+- Last activity: 2025-10-16
+- Status: Removed from permission tree
+- Residual control: None
+- Verified via Tronscan and TronLink
 
