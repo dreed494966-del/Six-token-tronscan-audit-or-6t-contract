@@ -147,3 +147,28 @@ Your sponsorship helps maintain TRON contract compliance, audit logs, and biling
 
 [![Sponsor Me](https://img.shields.io/badge/Sponsor-Now-ff69b4?style=for-the-badge&logo=github)](https://github.com/sponsors/dreed494966-del)
 
+[Permission Update — Active Tree]
+
+Date: 31 December 2025  
+Wallet: TFq8GqCTiJA1PAnCJjtqDMHTRAsZgKNaYk (Yk Wallet)  
+Network: TRON Mainnet (TronGrid)
+
+Action Summary:
+- Removed signer: TCJgrowM26ojHX8jDBSoq8J6qvRs95heBg (Bg)
+- Added signer: [Lev address] with weight 4
+- Updated threshold: 3
+- Final signer structure: Lev (weight 4, threshold 3)
+- Broadcasted via TronLink Extension on Microsoft Edge
+
+Compliance Notes:
+- Bg fully removed from active permission tree
+- No residual control or weight assigned to Bg
+- Lev confirmed as sole signer with sufficient weight to meet threshold
+- Permission update signed and confirmed via Yk wallet
+- UI artifacts showing Bg are cached and non-functional
+- Blockchain reflects clean signer structure
+
+Tags:
+#removeBlackList(Bg) #setParams(0,0) #LevSigner #PermissionUpdate #TronMainnet #AuditReady #sixTokenAudit #YkWallet #TronLinkEdge
+
+
