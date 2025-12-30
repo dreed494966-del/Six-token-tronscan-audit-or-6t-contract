@@ -251,3 +251,34 @@ TRON 的多签系统（TIP‑16）定义了账户如何通过多个私钥进行�
 - No residual control or weight assigned to Bg.
 - Lev confirmed as sole signer under Yk wallet.
 - Blockchain reflects clean signer structure.
+
+- # v1.0.6 — Bg Wallet Finalized Audit | Bg 钱包最终审计
+
+## Overview | 概览
+This release documents and finalizes the Bg wallet audit, confirming blacklist enforcement, transaction history, and removal from all permission structures.  
+本次版本记录并最终确认 Bg 钱包的审计，验证黑名单执行、交易历史，以及从所有权限结构中移除。
+
+## Changes | 更新内容
+- Added `bg-wallet-tx-history.md` under `audit-assets/bg-wallet-finalized/`
+- Documented full TRX transaction history for Bg wallet (TCJgrowM26ojHX8jDBSoq8J6qvRs95heBg)
+- Highlighted major inbound transfers (764 TRX, 500 TRX, 421 TRX, 727 TRX, 112 TRX)
+- Included micro-transaction activity (0.000001–0.000007 TRX) for traceability
+- Noted on-chain blacklist enforcement (Block 69927175)
+- Confirmed no USDT, contracts, or voting rewards
+- Verified Bg wallet removal from permission trees and inactivity post-blacklist
+- Updated README with bilingual TIP‑16 summary and Bg wallet audit details
+
+## Compliance Notes | 合规说明
+- Bg fully removed from active permission tree  
+Bg 已完全从 Active 权限树中移除  
+- No residual control or weight assigned to Bg  
+Bg 未保留任何控制权或权重  
+- Lev confirmed as sole signer under Yk wallet  
+Lev 已确认为 Yk 钱包下唯一签署人  
+- Blockchain reflects clean signer structure  
+区块链反映出干净的签署人结构  
+- Supports Chinese reviewer audit requirements  
+支持中国审计方的合规审查
+
+## Tags | 标签
+#removeBlackList(Bg) #LevSigner #PermissionUpdate #AuditFinalized
