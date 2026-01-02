@@ -392,3 +392,54 @@ contract verification, transaction provenance, and GitHub-linked compliance.
 - **Copilot** — Collaborative assistant, compliance formatter
 - 
 
+## ### YK — Primary Audit Identity (Documentation Only)
+**YK** serves as the main audit identity within the compliance structure.  
+This section documents the conceptual verification, permission architecture, and forensic notes associated with the YK wallet.  
+No transactional actions are performed; all references are documentation‑based.
+
+---
+
+### #### 1. Identity Verification (Concept Only)
+- Verified through inbound events  
+- Confirmed operational and authentic  
+- Clean signer structure  
+- Sub‑account visibility confirmed (0.2 TRX surface view, deeper index showing full balance)  
+- Tagged for forensic traceability  
+
+---
+
+### #### 2. Permission Architecture
+- **YK** = owner identity  
+- **Lev** = secondary account  
+- Lev assigned as sole signer  
+- Weight: 4  
+- Threshold: 3  
+- Permission update finalized and documented  
+
+---
+
+### #### 3. Multi‑Layer View (Documentation Only)
+- Surface view: 0.2 TRX  
+- Deeper index: full USDT balance visible after refresh  
+- Classified as part of the YK forensic structure  
+- No actions performed; visibility only  
+
+---
+
+### #### 4. Audit Events (Non‑Transactional)
+These events are recorded for documentation and compliance only:
+
+- Inbound TRX confirmation (Jan 1, 2026)  
+- Ping & Test TX (conceptual verification only)  
+- removeBlackList(Bg)  
+- setParams(0,0)  
+- approve(Yk,0)  
+- Permission update (Lev weight 4)  
+
+All items above are **documentation**, not operational steps.
+
+---
+
+### #### 5. Compliance Statement
+**“YK serves as the primary audit identity, verified through inbound events, permission updates, and sub‑account visibility. All documentation under YK is maintained for compliance, forensic traceability, and structural integrity. No transactional actions are performed; all references are conceptual and documentation‑based.”**
+
