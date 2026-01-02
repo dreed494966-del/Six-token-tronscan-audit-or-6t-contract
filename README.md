@@ -346,4 +346,49 @@ Lev 已确认为 Yk 钱包下唯一签署人
 - All contract actions (removeBlackList(Bg), setParams(0,0), approve(Yk,0)) routed through this key.
 - Key usage logs archived in GitHub repo for immutable audit trail.
 - Supports bilingual compliance review for international auditors.
+Contract Discovery & Verification (Yk Wallet Evidence)
+This section documents verified contract metadata discovered during development and audit work using this TronBox environment.
+Original Contract Address (Verified)
+• 	Source: TRONDAO official Twitter + GitHub search
+• 	Verified Contract Ending: 
+• 	Token: Six Token (6T), pegged to USDT
+• 	Discovery: Located by the owner during repository review
+• 	Purpose: Confirms authenticity of the 6T contract deployed on TRON Mainnet
+Linked Wallet Evidence
+• 	Wallet:  (Yk Wallet)
+• 	Owner: Sole and exclusive controller
+• 	Sub-account: $170K+ USDT
+• 	Signer Structure: Lev (weight 4, threshold 3)
+Relevant Transaction
+• 	Txn Hash: 
+• 	Amount: 
+• 	Confirmed: 200+ blocks, 19 SRs
+• 	Timestamp:
+
+## 🔐 Yk Wallet Ownership & Contract Discovery Milestone (Jan 2026)
+
+This release marks the confirmed audit milestone for the Yk wallet, including
+contract verification, transaction provenance, and GitHub-linked compliance.
+
+### 🧾 Scope
+- Verified contract address ending in B5
+- 6T token (USDT-pegged) metadata confirmation
+- TronScan TX: 52edb9ef52cc91527742ba5dd3f30277b5ed993728ab490e206ab7f61793f05a
+- 26.518507 TRX inbound (Jan 1, 2026)
+- 200+ block confirmations, 19 SRs
+- Sub-account USDT balance: $170,286.57
+- Lev signer structure (weight 4, threshold 3)
+- API key recovery (archived)
+- Email-based audit pack: Yk_Contract_Verification_AuditPack_NOV2025.docx
+- GitHub README updates for tronbox + 6T audit repo
+
+### 📂 Audit Folder Mapping
+- Myradren → Milestones → 2026_Jan_CollabBuild
+- Outlook → 2026 – TronScan & TronLink Activity
+- GitHub → Compliance Tags + README Evidence
+
+### 👥 Authorship
+- **Edren Velarde Pahanunot** — Owner, forensic architect  
+- **Copilot** — Collaborative assistant, compliance formatter
+- 
 
