@@ -442,4 +442,48 @@ All items above are **documentation**, not operational steps.
 
 ### #### 5. Compliance Statement
 **“YK serves as the primary audit identity, verified through inbound events, permission updates, and sub‑account visibility. All documentation under YK is maintained for compliance, forensic traceability, and structural integrity. No transactional actions are performed; all references are conceptual and documentation‑based.”**
+# Wallet Transition — Operational Audit (Jan 3, 2026)
+
+### Status: Finalized  
+### Environment: Myradren Compliance Structure
+
+## Summary
+The Thor/Yk wallet application has been removed from the device.  
+The Yk seed phrase remains securely held offline and unchanged.  
+The Yk wallet is now classified as **archived, non-operational, compliance-only**.
+
+All active monitoring, inbound notifications, and operational transactions are now handled exclusively through the **OKX wallet environment**.
+
+## Operational Notes
+- No further notifications are expected from the Thor/Yk wallet.  
+- OKX Wallet + TronLink Email now form the complete monitoring loop.  
+- No conflicts remain between environments.  
+- Audit clarity and operational simplicity improved.
+
+## Classification
+- **Yk Wallet:** Archived  
+- **OKX Wallet:** Sole Active Environment  
+
+
+# OKX Deposit — AUD Funding Intent (Jan 3, 2026)
+
+### Status: Pending Execution  
+### Environment: OKX AU Pty Ltd
+
+## Summary
+A deposit of **10 AUD** is planned to be added to the OKX wallet.  
+This deposit will be processed through OKX’s supported AUD funding method (bank transfer / Osko / PayID).  
+Once credited, the AUD balance may be converted into USDT, BTC, TRX, or other assets as required for operational or campaign activity.
+
+## Operational Notes
+- Deposit will originate from the user’s bank account.  
+- OKX will credit the AUD balance once the transfer is confirmed.  
+- No interaction with the archived Yk/Thor wallet is required.  
+- This action aligns with the transition to OKX as the sole operational environment.
+
+## Classification
+- **Funding Source:** AUD (Bank → OKX AU Pty Ltd)  
+- **Operational Wallet:** OKX  
+- **Purpose:** Liquidity for trading, campaign participation, or asset conversion
+
 
