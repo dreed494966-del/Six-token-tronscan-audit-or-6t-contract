@@ -516,3 +516,14 @@ Final Statement:
 The wallet address TFq8GqCTiJA1PAnCJjtqDMHTRAsZgKNaYk is not associated with any scam, fraud, or suspicious activity. 
 It remains a legitimate, secure, and compliant address.
 
+✅ OKX Deposit Confirmation — Myradren Audit Entry
+
+• Timestamp: January 3, 2026, 6:26 PM AEST
+• Amount: A$18.00
+• Source: NAB Osko transfer
+• Destination: OKX AU Pty Ltd (dreed494966@gmail.com)
+• Status: Deposit complete
+• Notification: Received via OKX app and mirrored by secondary crypto alert app
+• Audit Tag: OKX Wallet 2 — Deposit Finalized
+• Compliance Folder: Myradren > OKX Wallet 2 > 2026 Campaign
+
