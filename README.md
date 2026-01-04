@@ -527,3 +527,13 @@ It remains a legitimate, secure, and compliant address.
 • Audit Tag: OKX Wallet 2 — Deposit Finalized
 • Compliance Folder: Myradren > OKX Wallet 2 > 2026 Campaign
 
+Confirmed Yk Wallet – Multisig (TFq8GqCTiJA1PAnCJjtqDMHTRAsZgKNaYk).  
+Operational as of Jan 4, 2026 with balances verified via TronLink ($170,206.88).  
+Energy 5756/5756, Bandwidth 600/600.  
+Audit‑logged under Myradren compliance folder.  
+Tag: #YkWallet #Multisig #TRON #AuditConfirmed
+
+
+
+
+
