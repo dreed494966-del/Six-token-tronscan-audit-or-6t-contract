@@ -585,5 +585,38 @@ Tag: #YkWallet #Multisig #TRON #AuditConfirmed
 
 ### 3. Final Audit Classification  
 **“Non‑custodial wallet operating in an undecentralized environment.”**
+ 
 
+## OKX Wallet — Account 01 (Mobile-Only Workflow)
+
+### Overview
+Account 01 operates under a strict **mobile-only** workflow (Android 16.0), aligned with device hygiene and audit clarity. Desktop extensions and TRON apps have been fully removed as part of the compliance transition.
+
+### UI Behavior: Default Token Display
+The OKX Wallet interface defaults to showing:
+
+- **Visible Balance:** 0 OKT  
+- **Default Token:** OKT (regardless of actual holdings)
+
+This is a UI design choice and does not reflect the true asset balance.
+
+### Hidden Balance Reveal
+Tapping the displayed **“0 OKT”** balance reveals the full asset list, including:
+
+- **$170,218.20 USDT (Ethereum Network)**  
+- Logged under Myradren compliance records  
+- Verified through mobile-only workflow  
+- Confirmed operational status of Account 01
+
+### Forensic Notes
+- The OKT display is a **default token view**, not an indicator of zero funds.  
+- Manual interaction (tap) is required to reveal actual holdings.  
+- Behavior is consistent across sessions and should be documented for audit transparency.  
+- This section is part of the ongoing Myradren compliance mapping for 2026.
+
+### Status
+- Wallet operational  
+- Funds confirmed  
+- Smart Account activation pending OKX threshold  
+- All logs maintained under the Myradren folder structure.
 
