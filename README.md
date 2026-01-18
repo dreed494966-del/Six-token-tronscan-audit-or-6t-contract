@@ -605,7 +605,33 @@ Tapping the displayed **“0 OKT”** balance reveals the full asset list, inclu
 
 - **$170,218.20 USDT (Ethereum Network)**  
 - Logged under Myradren compliance records  
-- Verified through mobile-only workflow  
+- Verified through mobile-only workflow
+
+- ### **removeBlackList(Bg) — Compliance Confirmation Log**  
+**Contract:** Six Token (6T)  
+**Protocol:** TRC-20  
+**Network:** TRON Mainnet  
+**Action:** `removeBlackList(Bg)`  
+**Status:** ✅ Confirmed  
+**Signer:** Yk wallet (TFq8GqCTiJA1PAnCJjtqDMHTRAsZgKNaYk)  
+**Permission Structure:** Lev set as sole signer (weight 4, threshold 3)  
+**Timestamp:** January 18, 2026 — 10:51 PM AEST  
+**Device Context:** Windows 11.0 (Desktop)  
+**Compliance Folder:** Myradren
+
+---
+
+### 🔍 Forensic Notes  
+- Action `removeBlackList(Bg)` was executed successfully under verified signer structure.  
+- Contract source code is verified and public.  
+- No anomalies detected in execution trace.  
+- This action aligns with prior permission updates and blacklist removal policy.  
+- Tagged under GitHub Sponsors compliance and Myradren audit structure.
+
+---
+
+### ✅ Closure Status  
+This entry marks the **final compliance confirmation** for the `removeBlackList(Bg)` action under the 6T contract. All forensic and operational parameters are satisfied.
 - Confirmed operational status of Account 01
 
 ### Forensic Notes
